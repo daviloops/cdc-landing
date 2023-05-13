@@ -6,7 +6,6 @@
   const srcFooterImg = "src/static/images/bottomBackground.svg";
   const srcLogoImg = "src/static/images/logoDark.svg";
   const srcInProgressImg = "src/static/images/roadBarrier.png";
-
 </script>
 
 <div class="container">
