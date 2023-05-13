@@ -31,6 +31,8 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
+    background-image: url('../static/images/backgroundCdcBlue.svg');
+    background-size: cover;
 	}
 
   .background-image {
@@ -88,9 +90,9 @@
 
   .link {
     text-decoration: none;
-    
-    &:hover {
-      text-decoration: underline;
-    }
+  }
+
+  .link:hover {
+    text-decoration: underline;
   }
 </style>
