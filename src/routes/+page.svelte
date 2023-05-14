@@ -32,7 +32,7 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
-    background-image: url('images/backgroundCdcBlue.svg');
+    background-image: url('../../static/images/backgroundCdcBlue.svg');
     background-size: cover;
 	}
 
