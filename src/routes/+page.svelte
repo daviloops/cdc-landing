@@ -2,10 +2,12 @@
   // This can be false if you're using a fallback (i.e. SPA mode)
   export const prerender = true;
 
-  const src = 'src/static/images/asii.svg';
-  const srcFooterImg = "src/static/images/bottomBackground.svg";
-  const srcLogoImg = "src/static/images/logoDark.svg";
-  const srcInProgressImg = "src/static/images/roadBarrier.png";
+  // For github pages
+  export const trailingSlash = 'always';
+
+  const srcFooterImg = "images/bottomBackground.svg";
+  const srcLogoImg = "images/logoDark.svg";
+  const srcInProgressImg = "images/roadBarrier.png";
 </script>
 
 <div class="container">
@@ -30,7 +32,7 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
-    background-image: url('../static/images/backgroundCdcBlue.svg');
+    background-image: url('images/backgroundCdcBlue.svg');
     background-size: cover;
 	}
 

@@ -1,8 +1,6 @@
-export const prerender = true;
-
 <script>
-  import '../styles/fonts.css';
-  import "../styles/global.css";
+  import '../../static/styles/fonts.css';
+  import "../../static/styles/global.css";
 </script>
 
 
